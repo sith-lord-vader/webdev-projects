@@ -1,0 +1,23 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: rgb(39, 37, 37);
+}
+
+.top-left {
+  cursor: url("top-left.png"), pointer;
+}
+
+.top-right {
+  cursor: url("top-right.png") 27 0, pointer;
+}
+
+.bottom-right {
+  cursor: url("bottom-right.png") 27 39, pointer;
+}
+
+.bottom-left {
+  cursor: url("bottom-left.png") 0 36, pointer;
+}
